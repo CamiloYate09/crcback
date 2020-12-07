@@ -100,7 +100,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>crcback</finalName>
+		<finalName>crc_back</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -111,7 +111,7 @@
 				<artifactId>heroku-maven-plugin</artifactId>
 				<version>3.0.2</version>
 				<configuration>
-					<appName>crcback</appName>
+					<appName>crc_back</appName>
 					<includeTarget>false</includeTarget>
 					<includes>
 						<include>${project.build.directory}/${project.build.finalName}.jar</include>
